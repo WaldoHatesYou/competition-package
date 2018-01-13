@@ -19,7 +19,10 @@ class DataRunner:
 
         with open(out_filename, 'w') as out_file:
             for output in outputs:
-                out_file.write("%s" % output)
+                if output != '':
+                    if output[len(output)-1] != '\n':
+                        output += '\n'
+                    out_file.write(output)
 
 ENCRYPT = "ENCRYPT"
 DECRYPT = "DECRYPT"

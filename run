@@ -7,3 +7,5 @@
 
 python solution/dummy.py
 python3 solution/Part1/PermutationEncryption.py
+python3 solution/Part1/BlockStepEncryption.py
+python3 solution/Part1/SimpleStepEncryption.py
