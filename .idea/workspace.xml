@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3944ed2f-0a5d-4e47-b082-acb6f691fad4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part1/BlockStepEncryption.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part1/PermutationEncryption.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part1/SimpleStepEncryption.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part2/Counting.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part2/Improving.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part2/Modelling.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part3/BlockStepCodeCrack.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part3/PermutationCodeCrack.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part3/StepCodeCrack.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part4/Visualization.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Part5/GenerativeModel.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/run" afterPath="$PROJECT_DIR$/run" />
+      <change beforePath="$PROJECT_DIR$/solution/Part1/PermutationEncryption.py" afterPath="$PROJECT_DIR$/solution/Part1/PermutationEncryption.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,61 +25,61 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="1a.in" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/1a.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1c.in" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/1c.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ptb.train.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ptb.train.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PermutationEncryption.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/Part1/PermutationEncryption.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="321">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Counting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Part2/Counting.py">
+      <file leaf-file-name="1c.out" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output/1c.out">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modelling.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Part2/Modelling.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Improving.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Part2/Improving.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StepCodeCrack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Part3/StepCodeCrack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockStepCodeCrack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Part3/BlockStepCodeCrack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="71" lean-forward="true" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -114,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerativeModel.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenerativeModel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/Part5/GenerativeModel.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -140,7 +131,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/solution/Part1/BlockStepEncryption.py" />
-        <option value="$PROJECT_DIR$/solution/Part1/PermutationEncryption.py" />
         <option value="$PROJECT_DIR$/solution/Part2/Counting.py" />
         <option value="$PROJECT_DIR$/solution/Part2/Modelling.py" />
         <option value="$PROJECT_DIR$/solution/Part2/Improving.py" />
@@ -149,12 +139,14 @@
         <option value="$PROJECT_DIR$/solution/Part3/PermutationCodeCrack.py" />
         <option value="$PROJECT_DIR$/solution/Part4/Visualization.py" />
         <option value="$PROJECT_DIR$/solution/Part5/GenerativeModel.py" />
+        <option value="$PROJECT_DIR$/run" />
+        <option value="$PROJECT_DIR$/solution/Part1/PermutationEncryption.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="125" />
-    <option name="y" value="222" />
+    <option name="y" value="91" />
     <option name="width" value="1400" />
     <option name="height" value="773" />
   </component>
@@ -181,6 +173,16 @@
             <path>
               <item name="competition-package" type="b2602c69:ProjectViewProjectNode" />
               <item name="competition-package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="competition-package" type="b2602c69:ProjectViewProjectNode" />
+              <item name="competition-package" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="competition-package" type="b2602c69:ProjectViewProjectNode" />
+              <item name="competition-package" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="competition-package" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +251,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="222" width="1400" height="773" extended-state="0" />
+    <frame x="125" y="91" width="1400" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -287,31 +289,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/Part1/SimpleStepEncryption.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Part1/BlockStepEncryption.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Part1/PermutationEncryption.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -379,6 +357,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ptb.train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Part1/BlockStepEncryption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/1a.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/1c.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Part1/PermutationEncryption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/1c.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="71" lean-forward="true" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
           <folding />
         </state>
       </provider>
