@@ -13,7 +13,6 @@ def prob(dataset, inString, countTable, lambdas):
     ngrams = [inString[:i] for i in range(1,len(inString)+1)]
     sum = 0.0
     for i in range(1, len(ngrams)):
-        # lambdas[i-1]*
         currTerm = float(count(dataset, ngrams[i], countTable))
         prevTerm = float(count(dataset, ngrams[i-1], countTable))
         if(prevTerm > 0.0):
