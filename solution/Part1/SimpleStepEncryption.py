@@ -30,3 +30,4 @@ def decryptSimpleStep(string, steps):
 
     # convert back to string
     return ''.join(chr(c) for c in ascii)
+
