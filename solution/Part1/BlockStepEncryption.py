@@ -1,0 +1,21 @@
+def encrypt(plaintext, keys):
+    ciphertext = ""
+    j = 0
+    for i in range(0, len(plaintext)):
+        if (ord(plaintext[i]) >= 65 and ord(plaintext[i]) <= 90):
+            ciphertext += chr((((ord(plaintext[i]) + keys[j]) - 65) % 26) + 65)
+            j = (j + 1) % (len(keys))
+        else:
+            ciphertext += plaintext[i]
+    return ciphertext
+
+def decrypt(ciphertext, keys):
+    plaintext = ""
+    j = 0
+    for i in range(0, len(plaintext)):
+        if (ord(ciphertext[i]) >= 65 and ord(ciphertext[i]) <= 90):
+            plaintext += chr((((ord(ciphertext[i]) - keys[j]) - 65) % 26) + 65)
+            j = (j + 1) % (len(keys))
+        else:
+            plaintext += ciphertext[i]
+    return plaintext
