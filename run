@@ -6,3 +6,4 @@
 # with something that works with the ECF or GCP
 
 python solution/dummy.py
+python3 solution/Part1/PermutationEncryption.py
