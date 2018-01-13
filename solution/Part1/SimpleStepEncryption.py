@@ -9,31 +9,43 @@ from DataRunner import DataRunner
 #
 # Output: DOSKDEHWLCH!
 
+
 def encryptSimpleStep(string, steps):
-    steps = int(steps)
-    # convert to ascii
-    ascii = [ord(c) for c in string]
+    res = ''
 
     # add k steps modulo ascii range
-    for i, c in enumerate(ascii):
-        if c >= 65 or c <= 90:
-            ascii[i] = (c + steps - 65) % 26 + 65
+    for i, c in enumerate(string):
+        # convert to ascii
+        x = ord(c)
+        if 65 <= x <= 90:
+            res += chr((x + int(steps) - 65) % 26 + 65)
+        else:
+            res += c
 
     # convert back to string
-    return ''.join(chr(c) for c in ascii)
+    return res
+
 
 def decryptSimpleStep(string, steps):
-    steps = int(steps)
-    # convert to ascii
-    ascii = [ord(c) for c in string]
+    res = ''
 
     # add k steps modulo ascii range
-    for i, c in enumerate(ascii):
-        if c >= 65 or c <= 90:
-            ascii[i] = (c - steps - 65) % 26 + 65
-
+    for i, c in enumerate(string):
+        # convert to ascii
+        x = ord(c)
+        if 65 <= x <= 90:
+            res += chr((x - int(steps) - 65) % 26 + 65)
+        else:
+            res += c
     # convert back to string
-    return ''.join(chr(c) for c in ascii)
+    return res
+
+# print(encryptSimpleStep("REMEMBER TO WRAP PROPERLY", 25))
+# print(encryptSimpleStep("THE KEY FOR THIS MESSAGE IS 5 (FIVE)", 5))
+# print(encryptSimpleStep("THIS MESSAGE IS NOT ENCRYPTED", 0))
+# print(encryptSimpleStep("ALPHABETIZE!", 3))
+# print(decryptSimpleStep("ALPHABETIZE!", 3))
+# print(decryptSimpleStep("DOSKDEHWLCH!", 3))
 
 data_runner = DataRunner('input/1a.in')
 data_runner.run('output/1a.out', encryptSimpleStep, decryptSimpleStep)
