@@ -7,7 +7,7 @@
 #
 # Output: DOSKDEHWLCH!
 
-def step(steps, string):
+def encryptSimpleStep(steps, string):
     # convert to ascii
     ascii = [ord(c) for c in string]
 
@@ -19,7 +19,16 @@ def step(steps, string):
     # convert back to string
     return ''.join(chr(c) for c in ascii)
 
+def decryptSimpleStep(steps, string):
+    # convert to ascii
+    ascii = [ord(c) for c in string]
 
-for i in range(1,4):
-    print(step(i, "ALPHABETIZE!"))
+    # add k steps modulo ascii range
+    for i, c in enumerate(ascii):
+        if c >= 65 or c <= 90:
+            ascii[i] = (c - steps - 65) % 26 + 65
 
+    # convert back to string
+    return ''.join(chr(c) for c in ascii)
+
+print(decryptSimpleStep(3, "DOSKDEHWLCH"))
