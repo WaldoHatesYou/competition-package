@@ -1,5 +1,6 @@
 import math
-from Counting import*
+from solution.Part2.Counting import count
+
 
 def moreEnglish(inString1, inString2, lambdas):
     countTable = {}
