@@ -1,3 +1,4 @@
+*.pyc
 solution/Part1/__pycache__
 .idea/*
 .idea/*.xml
