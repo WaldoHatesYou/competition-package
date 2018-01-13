@@ -7,7 +7,7 @@
 #
 # Output: DOSKDEHWLCH!
 
-def encryptSimpleStep(steps, string):
+def encryptSimpleStep(string, steps):
     # convert to ascii
     ascii = [ord(c) for c in string]
 
@@ -19,7 +19,7 @@ def encryptSimpleStep(steps, string):
     # convert back to string
     return ''.join(chr(c) for c in ascii)
 
-def decryptSimpleStep(steps, string):
+def decryptSimpleStep(string, steps):
     # convert to ascii
     ascii = [ord(c) for c in string]
 
