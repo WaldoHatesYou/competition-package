@@ -1,16 +1,22 @@
+import math
+from Counting import*
 
-def moreEnglish(string1, string2):
-    return 0
+def moreEnglish(inString1, inString2, lambdas):
+    countTable = {}
+    dataset = open('../../ptb.train.txt', 'r')
+    score1 = score(dataset, inString1, countTable, lambdas)
+    score2 = score(dataset, inString2, countTable, lambdas)
 
-def count():
-    training = open('words.txt', 'r')
-    print(training)
-    return 0
+def prob(dataset, inString, countTable, lambdas):
+    ngrams = [inString[:i] for i in range(len(inString))]
+    sum = 0
+    for i in range(1, len(ngrams)):
+        sum += lambdas[i-1]*count(dataset, ngrams[i], countTable)/count(dataset, ngrams[i-1], countTable)
+    return sum
 
-def avg():
-    return 0
-
-def prob(string, count_table, lambdas):
-    #TODO check that it also puts the whole string in ngrams
-    #PLEASE DO IT JOEY
-    ngrams = [string[:i] for i in range(len(string))]
+def score(dataset, inString, countTable, lambdas):
+    words = [inString for inString in inString.split(' ')]
+    sum = 0
+    for i in range(0, len(words)):
+        sum += math.log10(prob(dataset, words[i], countTable, lambdas))
+    return sum
