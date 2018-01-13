@@ -25,5 +25,6 @@ def decrypt(ciphertext, key):
             plaintext += ciphertext[i]
     return plaintext
 
-data_runner = DataRunner('input/1b.in')
-data_runner.run('output/1b.out', encrypt, decrypt)
+if __name__ == "__main__":
+    data_runner = DataRunner('input/1b.in')
+    data_runner.run('output/1b.out', encrypt, decrypt)

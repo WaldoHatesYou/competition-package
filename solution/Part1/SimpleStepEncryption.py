@@ -47,5 +47,6 @@ def decryptSimpleStep(string, steps):
 # print(decryptSimpleStep("ALPHABETIZE!", 3))
 # print(decryptSimpleStep("DOSKDEHWLCH!", 3))
 
-data_runner = DataRunner('input/1a.in')
-data_runner.run('output/1a.out', encryptSimpleStep, decryptSimpleStep)
+if __name__ == "__main__":
+    data_runner = DataRunner('input/1a.in')
+    data_runner.run('output/1a.out', encryptSimpleStep, decryptSimpleStep)

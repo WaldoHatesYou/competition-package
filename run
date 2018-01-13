@@ -5,7 +5,17 @@
 # but you must set the shebang (https://en.wikipedia.org/wiki/Shebang_(Unix))
 # with something that works with the ECF or GCP
 
-python solution/dummy.py
+# Please run this on Google Cloud Platform
+# We used the default Debian
+# For testing, we had to do the following
+# I had to install git using the following command
+# sudo apt-get install git
+# Then, I was able to just run it
+# That being said, for the most part, we tested it with Python 3
+# So, if you encounter issues
+# You can try writing alias python='python3'
+# Which might help
+
 python solution/Part1/PermutationEncryption.py
 python solution/Part1/BlockStepEncryption.py
 python solution/Part1/SimpleStepEncryption.py
