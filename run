@@ -6,6 +6,6 @@
 # with something that works with the ECF or GCP
 
 python solution/dummy.py
-python3 solution/Part1/PermutationEncryption.py
-python3 solution/Part1/BlockStepEncryption.py
-python3 solution/Part1/SimpleStepEncryption.py
+python solution/Part1/PermutationEncryption.py
+python solution/Part1/BlockStepEncryption.py
+python solution/Part1/SimpleStepEncryption.py

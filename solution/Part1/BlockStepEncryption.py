@@ -16,7 +16,7 @@ def decrypt(ciphertext, key):
     keys = [int(key) for key in key.split(' ')]
     plaintext = ""
     j = 0
-    for i in range(0, len(plaintext)):
+    for i in range(0, len(ciphertext)):
         if (ord(ciphertext[i]) >= 65 and ord(ciphertext[i]) <= 90):
             plaintext += chr((((ord(ciphertext[i]) - keys[j]) - 65) % 26) + 65)
             j = (j + 1) % (len(keys))
