@@ -25,11 +25,12 @@ def score(dataset, inString, countTable, lambdas):
     words = [inString for inString in inString.split(' ')]
     sum = 0.0
     for i in range(0, len(words)):
-        sum += math.log10(prob(dataset, words[i], countTable, lambdas))
+        wordProb = prob(dataset, words[i], countTable, lambdas)
+        if(wordProb > 0.0): sum += math.log(wordProb)
     return sum
 
 inString1 = "BLAH BL A BLAH"
 inString2 = "THIS IS A TEST"
 lambdas = [1e-6,1e-5,1e-4,1e-3,1e-2,1e-1,0.888889]
-dataset = open('../../ptb.train.txt', 'r').read()
+dataset = open('../../ptb.train.txt', 'r').read().upper()
 print(moreEnglish(dataset, inString1, inString2, lambdas))
