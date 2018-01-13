@@ -1,3 +1,5 @@
+solution/Part1/__pycache__
+.idea/*
+.idea/*.xml
 output
-.idea/misc.xml
-.idea/workspace.xml
+*.xml
