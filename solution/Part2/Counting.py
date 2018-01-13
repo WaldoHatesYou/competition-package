@@ -1,6 +1,6 @@
-### NOT FINISHED
 
-
+# count expects a preprocessed dataset, a match string, and a dictionary that has
+# previously counted strings. If this is the first count just pass an empty dictionary
 def count(dataset, ngram, dictionary):
     if ngram in dictionary:
         return dictionary[ngram]
